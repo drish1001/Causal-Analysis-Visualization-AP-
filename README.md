@@ -23,30 +23,30 @@ This project analyzes county-level socioeconomic and health indicators to identi
 ```
 advanced-project/
 ├── data/
-│   ├── raw/                    # Original datasets
+│   ├── raw/                                      # Original datasets
 │   │   ├── NORC_data_2017-2020.csv
 │   │   └── patterns_for_death-rate-2018-2021.csv
-│   ├── processed/              # Intermediate files
+│   ├── processed/                                # Intermediate files
 │   │   ├── feature_dict.csv
 │   │   ├── pattern_constraints.csv
 │   │   ├── norc_with_pattern.csv
 │   │   ├── normalized_norc_with_pattern.csv
 │   │   └── final.csv
-│   └── output/                 # Analysis results
+│   └── output/                                   # Analysis results
 │       ├── cluster_data.json
 │       ├── cluster_structure.json
 │       └── cluster_histograms.pdf
 ├── src/
-│   ├── data_processing/        # Data processing modules
+│   ├── data_processing/                          # Data processing modules
 │   │   ├── data_processor.py
 │   │   ├── feature_engineering.py
 │   │   └── utils.py
-│   └── clustering/             # Clustering analysis
+│   └── clustering/                               # Clustering analysis
 │       ├── hierarchical_clustering.py
 │       └── visualization.py
-├── notebooks/                  # Jupyter notebooks
-│   ├── AP_Semester3.ipynb     # Data processing notebook
-│   └── building_clusters.ipynb # Clustering analysis notebook
+├── notebooks/                                    # Jupyter notebooks
+│   ├── advacned_project_data_processing.ipynb    # Data processing notebook
+│   └── advacned_project_clustering.ipynb         # Clustering analysis notebook
 └── requirements.txt
 ```
 
